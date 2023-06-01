@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.225ca467.css",
-    "main.js": "/static/js/main.994a48eb.js",
+    "main.js": "/static/js/main.adb85886.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/1800_flowers_ss.png": "/static/media/1800_flowers_ss.8075222f476a1244b20c.png",
     "static/media/make_my_trip_ss.png": "/static/media/make_my_trip_ss.891552577d053d923aec.png",
     "static/media/Sourabh_Patidar_Resume.pdf": "/static/media/Sourabh_Patidar_Resume.e2f19a36c64ea75b90c9.pdf",
     "index.html": "/index.html",
     "main.225ca467.css.map": "/static/css/main.225ca467.css.map",
-    "main.994a48eb.js.map": "/static/js/main.994a48eb.js.map",
+    "main.adb85886.js.map": "/static/js/main.adb85886.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.225ca467.css",
-    "static/js/main.994a48eb.js"
+    "static/js/main.adb85886.js"
   ]
 }
