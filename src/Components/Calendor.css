@@ -1,0 +1,29 @@
+
+.react-activity-calendar__calendar {
+ width: 100%;
+ height: auto;
+ text-align: center
+ 
+}
+
+.react-activity-calendar{
+  max-width: 100%;
+}
+@media screen and (min-width: 100px) and (max-width:345px){
+    .react-activity-calendar__count{
+        font-size: 8px;
+    }
+   .react-activity-calendar__legend-colors{
+    font-size: 8px;
+   }
+}
+@media screen and (min-width: 50px) and (max-width:250px){
+    .react-activity-calendar__count{
+        font-size: 6px;
+    }
+    .react-activity-calendar__legend-colors{
+        font-size: 4px;
+       }
+}
+
+
