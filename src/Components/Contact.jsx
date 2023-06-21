@@ -65,7 +65,7 @@ const Contact = () => {
       </Box>
       <Box  w={isWidths?"230px":"100%"} textAlign={'center'} color={'white'} bg={'black'}>
         <Box w={{base: "50%", sm: "30%", md: "30%", lg: "20%", xl: "20%", "2xl": "20%"}} display={'flex'} margin={'auto'} mt={'25px'} h={'70px'} color={'white'} bg={'black'}>
-          <Text margin={'auto'} fontSize={{base: "10px", sm: "13px", md: "13px", lg: "15px", xl: "15px", "2xl": "15px"}} textAlign={'center'}>© 2022 Sourabh. Design by Me with</Text>
+          <Text margin={'auto'} fontSize={{base: "10px", sm: "13px", md: "13px", lg: "15px", xl: "15px", "2xl": "15px"}} textAlign={'center'}>© 2023 Sourabh. Design by Me with</Text>
           <Image mt={'25px'} h={'30%'} src="http://clipartmag.com/images/red-heart-clipart-high-resolution-32.png"></Image>
         </Box>
       </Box>

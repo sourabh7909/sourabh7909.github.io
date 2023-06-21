@@ -18,7 +18,7 @@ const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
    
-      <nav className="main-nav" id="nav-menu">
+      <nav  className="main-nav" id="nav-menu">
         {/* 1st logo part  */}
         <div className="logo">
           <h2>

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <Box  mb={'40px'} id="about" className='about section'>
     <Box >
-      <Box position={'relative'} backgroundImage={'https://mohitkss.github.io/static/media/backgroundHome.1401f9c3ab9e0acab13c.jpg'} marginBottom={{ base: "20px", sm: "0", md: "0", lg: "0", xl: "0", "2xl": "0" }}>
+      <Box position={'relative'} backgroundColor={'cyan.900'}  marginBottom={{ base: "20px", sm: "0", md: "0", lg: "0", xl: "0", "2xl": "0" }}>
         <Box pt={'20px'} display={{ base: "", sm: "", md: "flex", lg: "flex", xl: "flex", "2xl": "flex" }} justifyContent={'space-between'} m={'auto'} width={{ base: "95%", sm: "90%", md: "80%", lg: "80%", xl: "80%", "2xl": "80%" }} h={'auto'}>
           <Box mt={'20px'} width={{ base: "100%", sm: "100%", md: "60%", lg: "50%", xl: "50%", "2xl": "50%" }}>
 
@@ -15,12 +15,15 @@ const About = () => {
               <Image h={"55%"} borderRadius={'50%'} src={"https://avatars.githubusercontent.com/u/112754573?v=4"} />
             </Box>
 
-            <Heading id="user-detail-name" pl={{ base: "25%", sm: "25%", md: "0", lg: "0", xl: "0", "2xl": "0" }} textAlign={'left'} mb={'10px'} fontSize={{ base: "18px", sm: "25px", md: "30px", lg: "30px", xl: "30px", "2xl": "30px" }} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'} fontStyle={'15px'}>Hi, I'm Sourabh Patidar.</Heading>
+            <Heading color="white" id="user-detail-name" pl={{ base: "25%", sm: "25%", md: "0", lg: "0", xl: "0", "2xl": "0" }} textAlign={'left'} mb={'10px'} fontSize={{ base: "18px", sm: "25px", md: "30px", lg: "30px", xl: "30px", "2xl": "30px" }} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'} fontStyle={'15px'}>Hi, I'm Sourabh Patidar.</Heading>
             <Text id="user-detail-intro" textAlign={'left'} mb={'20px'} fontFamily={'Nunito,sans-serif'} color={'rgb(132, 146, 166)'} w={'95%'} fontSize={'17px'}>Passionate Full Stack Web Developer with 3 months of experience and certification in backend and frontend in the MERN stack. Seeking to contribute my skills and expertise in the company growth. Ability to work in team environment, emphasizing team goals.</Text>
             <Box h={'auto'} width={{ base: "100%", sm: "100%", md: "100%", lg: "80%", xl: "60%", "2xl": "60%" }} display={{ base: "", sm: "", md: "flex", lg: "flex", xl: "flex", "2xl": "flex" }} justifyContent={'space-between'}>
 
-             <a id="resume-link-2"  href={Resume} download={"Resume"}> <Button id="resume-button-2"  fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }} w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }} mr={{ base: "5px", sm: "5px", md: "0", lg: "0", xl: "0", "2xl": "0" }} ml={{ base: "-20px", sm: "-20px", md: "0", lg: "0", xl: "0", "2xl": "0" }} fontFamily={'Nunito,sans-serif'} _hover={'none'} p={'20px 12px'} borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>Download Resume<DownloadIcon marginLeft={'10px'} mt={{ base: "28px", sm: "28px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} mb={{ base: "30px", sm: "30px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} /></Button>
-             </a>
+             {/* <a id="resume-link-2"  href={Resume} download={"Resume"}>  */}
+             <Button id="resume-button-2" onClick={()=>window.open('https://drive.google.com/file/d/19KTxx4iOLBOozJerHMoTAHFldPlETYpd/view')} fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }} w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }} mr={{ base: "5px", sm: "5px", md: "0", lg: "0", xl: "0", "2xl": "0" }} ml={{ base: "-20px", sm: "-20px", md: "0", lg: "0", xl: "0", "2xl": "0" }} fontFamily={'Nunito,sans-serif'} _hover={'none'} p={'20px 12px'} borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>Download Resume<DownloadIcon marginLeft={'10px'} mt={{ base: "28px", sm: "28px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} mb={{ base: "30px", sm: "30px", md: "4px", lg: "4px", xl: "4px", "2xl": "4px" }} />
+             <a id="resume-link-2"  href={Resume} download={Resume}></a>
+             </Button>
+             {/* </a> */}
 
               <br></br>
               <a target='_blank' href={'https://drive.google.com/file/d/19KTxx4iOLBOozJerHMoTAHFldPlETYpd/view'}><Button fontSize={{ base: "12px", sm: "12px", md: "14px", lg: "14px", xl: "15px", "2xl": "auto" }} w={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "auto", "2xl": "auto" }} mr={{ base: "40px", sm: "5px", md: "", lg: "", xl: "", "2xl": "" }} ml={{ base: "-20px", sm: "-20px", md: "", lg: "", xl: "", "2xl": "" }} mt={{ base: "20px", sm: "20px", md: "0", lg: "0", xl: "0", "2xl": "0" }} marginLeft={'20px'} fontFamily={'Nunito,sans-serif'} _hover={'none'} p={{ base: "20px 25px", sm: "20px 25px", md: "20px 12px", lg: "20px 12px", xl: "20px 12px", "2xl": "20px 12px" }} borderRadius={'10px'} backgroundColor={'rgb(1, 164, 121)'} color={'white'}>View Resume<ViewIcon marginLeft={'10px'} /></Button></a>

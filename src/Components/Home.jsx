@@ -9,7 +9,7 @@ import Contact from './Contact'
 const Home = () => {
   return (
     <div id='home'>
-        {/* <Navbar data-testid="nav-menu"/> */}
+        <Navbar data-testid="nav-menu"/>
         <About/>
         <Skills/>
         <Projects/>

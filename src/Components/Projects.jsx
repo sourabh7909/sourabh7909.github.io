@@ -14,11 +14,11 @@ const Projects = () => {
     <Box id='projects' backgroundColor={'white'} mt={'30px'}   p={'10px'} borderRadius={'20px'} h={'auto'} w={'82%'} margin={'0px auto'} mb={'70px'}>
       {/* frist project */}
       <Heading mt={'50px'} mb={'50px'} textAlign={'center'} fontSize={'30px'} fontFamily={'Nunito,sans-serif'} color={'rgb(1, 164, 121)'}>PROJECTS</Heading>
-      <Box className='project-card' pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
-        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
+      <Box backgroundColor={'lightcoral'} className='project-card' pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
+        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.08)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
           <Image borderRadius={'10px'} boxSizing={'border-box'} h={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "400px", "2xl": "450px" }} w={'auto'} src={make_my_trip_img}></Image>
         </Box>
-        <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
+        <Box  borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'60px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
           <Heading className='project-title' mb={'15px'} color={'rgb(52, 58, 64)'} fontWeight={'semibold'} fontFamily={'Nunito,sans-serif'}>MAKE MY TRIP</Heading>
           <Text className='project-description' mb={'15px'} fontSize={'large'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "85%", "2xl": "85%" }}>MakeMyTrip provides online travel services including airline tickets, domestic and international holiday packages, hotel reservations, rail, and bus tickets.</Text>
           <Text mb={'15px'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "90%", "2xl": "90%" }} fontFamily={'Nunito,sans-serif'} fontSize={'large'} fontWeight={'bold'}>A collaborative project, built in 4 days by a team of 5 developers.</Text>
@@ -40,8 +40,8 @@ const Projects = () => {
 
       {/* second projects */}
 
-      <Box className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
-        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
+      <Box backgroundColor={'lightcoral'} className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
+        <Box  p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.08)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
           <Image borderRadius={'10px'} boxSizing={'border-box'} h={{ base: "auto", sm: "auto", md: "auto", lg: "auto", xl: "400px", "2xl": "450px" }} w={'100%'} src={folower_1800_img}></Image>
         </Box>
         <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
@@ -75,8 +75,8 @@ const Projects = () => {
       </Box>
 
       {/* third project */}
-      <Box className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
-        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "45%", "2xl": "45%" }} h={'100%'}>
+      <Box backgroundColor={'lightcoral'} className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
+        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.09)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
           <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src="https://www.yourdesignpick.com/49152/yec193.jpg"></Image>
         </Box>
         <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
@@ -110,8 +110,8 @@ const Projects = () => {
       </Box>
    
    {/* fourth projects */}
-   <Box className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
-        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.07)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "45%", "2xl": "45%" }} h={'100%'}>
+   <Box backgroundColor={'lightcoral'} className='project-card' mt={'80px'} pb={{ base: "30px", sm: "30px", md: "30px", lg: "30px", xl: "0", "2xl": "0" }} display={{ base: "", sm: "", md: "", lg: "", xl: "flex", "2xl": "flex" }} borderRadius={'10px'} h={'auto'} boxShadow={'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;'}>
+        <Box p={'20px'} borderRadius={'10px'} overflow={'hidden'} _hover={{ transform: 'scale(1.09)' }} transition={'all 0.3s'} width={{ base: "100%", sm: "100%", md: "100%", lg: "100%", xl: "55%", "2xl": "55%" }} h={'100%'}>
           <Image borderRadius={'10px'} boxSizing={'border-box'} h={'auto'} w={'100%'} src="https://www.yourdesignpick.com/49152/yec193.jpg"></Image>
         </Box>
         <Box borderRadius={'10px'} boxShadow={{ base: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", sm: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", md: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", lg: "rgba(0, 0, 0, 0.35) 0px 5px 15px;", xl: "unset", "2xl": "unset" }} textAlign={{ base: "center", sm: "center", md: "center", lg: "center", xl: "left", "2xl": "left" }} width={{ base: "100%", sm: "100%", md: "100%", lg: "90%", xl: "55%", "2xl": "55%" }} p={'30px'} margin={{ base: "center", sm: "center", md: "center", lg: "auto", xl: "", "2xl": "" }}>
